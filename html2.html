@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Document</title>
+    <style>
+        
+        [type=radio]:checked + label > span{
+            background-color: blueviolet;
+        }
+        [type=radio]{
+            display: none;
+        }
+
+    </style>
+</head>
+<body>
+    <input type="radio" name="gender" id="female">
+    <label for="female"><span>여자</span></label>
+    <br>
+    <input type="radio" name="gender" id="male">
+    <label for="male"><span>남자</span></label>
+</body>
+</html>

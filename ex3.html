@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>HTML Forms</h2>
+
+<form action="/action_page.php">
+
+  <fieldset style="width: 50;">
+    <legend>기본정보</legend>
+  <label for="fname">아이디 :</label>
+  <input type="text" id="fname" name="fname" value="seorab"><br>
+  
+  <label for="lname">비밀번호 :</label>
+  <input type="text" id="lname" name="lname" value="****"><br>
+  
+  <label for="fname">성명 :</label>
+  <input type="text" id="fname" name="fname" value="서랍"><br>
+</fieldset>
+
+<fieldset>
+  <legend>세부정보</legend>
+<label for="fname">주소 :</label>
+<input type="text" id="fname" name="fname" value="서울시 관악구 신원동"><br>
+
+<label for="lname">우편번호 :</label>
+<input type="text" id="lname" name="lname" value=""> -
+<input type="text" id="lname" name="lname" value=""><br>
+
+<label for="fname">email :</label>
+<input type="text" id="fname" name="fname" value=""><br>
+
+<label for="fname">성별 :</label>
+<input type="radio" name="gender" value="male"><label for="male">남자</label> 
+<input type="radio" name="gender" value="female"><label for="female">여자</label> <br>
+
+<label for="fname">생년월일 :</label>
+<input type="date" id="fname" name="fname" value=""><br>
+
+<label for="fname">직업 :</label>
+<select id="cars" name="cars">
+  <option value="volvo">개발자</option>
+  <option value="saab">디자이너</option>
+  <option value="fiat">퍼블리셔</option>
+  <option value="audi">기획자</option>          <!-- 드롭다운 메뉴 -->
+</select>
+<br>
+
+<label for="fname">관심분야 :</label>
+<input type="checkbox" id="music" name="music" value="music">
+<label for="music"> 음악</label>
+<input type="checkbox" id="art" name="art" value="art">
+<label for="art"> 미술</label>
+<input type="checkbox" id="foreign language" name="foreign language" value="foreign language">
+<label for="foreign language"> 외국어</label>
+<input type="checkbox" id="game" name="game" value="game">
+<label for="game"> 게임</label><br>
+
+<label for="fname">기타 :</label>
+<textarea  cols="40" rows="10"></textarea>
+<br>
+
+</fieldset><br>
+<fieldset>
+  <input type="submit" value="작성완료">
+</fieldset>
+</form> 
+
+</body>
+</html>

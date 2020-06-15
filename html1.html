@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        p {
+            color: blue;
+        }
+
+        li>p {
+            color: black
+        }
+        li:nth-of-type(5)>p{
+            color: red
+        }
+        div:hover:nth-of-type(2){
+            background-color: red;
+        }
+        div:hover:nth-of-type(3){
+            background-color: green;
+        }
+        div:hover:nth-of-type(4){
+            background-color: blue;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div id="wrap">
+        <p>학습내용</p>
+        <ul>
+            <li>
+                <p>자바</p>
+            </li>
+            <li>
+                <h1>JAVA</h1>
+            </li>
+            <li>
+                <p>데이터베이스</p>
+            </li>
+            <li>
+                <h1>DATABASE</h1>
+            </li>
+            <li>
+                <p>스프링</p>
+            </li>
+            <li>
+                <h1>SPRING</h1>
+            </li>
+        </ul>
+    </div>
+
+    <div>DIV1</div>
+    <div>DIV2</div>
+    <div>DIV3</div>
+
+   
+
+</body>
+
+</html>
